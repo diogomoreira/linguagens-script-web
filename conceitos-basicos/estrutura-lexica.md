@@ -74,7 +74,8 @@ Em JavaScript, você **pode omitir o ponto-e-vírgula** entre duas instruções 
 Seja qual for o estilo que você escolher, existem alguns detalhes que você deve entender sobre ponto-e-vírgulas opcionais em JavaScript. Considere o seguinte código. Como as duas instruções aparecem em linhas separadas, o primeiro ponto e vírgula pode ser omitido:
 
 ```javascript
-a=3; b=4;
+a=3
+b=4
 ```
 
 Escrito da seguinte forma, no entanto, o primeiro ponto e vírgula é obrigatório:
