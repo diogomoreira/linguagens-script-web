@@ -11,6 +11,8 @@
 ## Conceitos básicos
 
 * [Estrutura léxica](conceitos-basicos/estrutura-lexica.md)
+* [Tipos](conceitos-basicos/tipos.md)
+* [Variáveis](conceitos-basicos/variaveis.md)
 
 ## Recursos avançados
 
