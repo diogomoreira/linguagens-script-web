@@ -13,6 +13,8 @@
 * [Estrutura léxica](conceitos-basicos/estrutura-lexica.md)
 * [Tipos](conceitos-basicos/tipos.md)
 * [Variáveis](conceitos-basicos/variaveis.md)
+* [Expressões](conceitos-basicos/expressoes.md)
+* [Condicionais](conceitos-basicos/condicionais.md)
 
 ## Recursos avançados
 
