@@ -15,6 +15,7 @@
 * [Variáveis](conceitos-basicos/variaveis.md)
 * [Expressões](conceitos-basicos/expressoes.md)
 * [Condicionais](conceitos-basicos/condicionais.md)
+* [Funções](conceitos-basicos/funcoes.md)
 
 ## Javascript no Browser
 
