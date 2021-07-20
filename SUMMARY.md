@@ -16,6 +16,8 @@
 * [Expressões](conceitos-basicos/expressoes.md)
 * [Condicionais](conceitos-basicos/condicionais.md)
 * [Funções](conceitos-basicos/funcoes.md)
+* [Laços e iterações](conceitos-basicos/lacos-e-iteracoes.md)
+* [Arrays](conceitos-basicos/arrays.md)
 
 ## Javascript no Browser
 
