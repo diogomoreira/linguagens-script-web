@@ -25,6 +25,7 @@
 * [DOM - Document Object Model](javascript-no-browser/dom-document-object-model.md)
 * [Entrada e saída](javascript-no-browser/entrada-e-saida.md)
 * [Eventos](javascript-no-browser/eventos.md)
+* [Adicionando e removendo elementos](javascript-no-browser/untitled.md)
 
 ## Recursos avançados
 
