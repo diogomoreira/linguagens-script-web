@@ -18,6 +18,7 @@
 * [Funções](conceitos-basicos/funcoes.md)
 * [Laços e iterações](conceitos-basicos/lacos-e-iteracoes.md)
 * [Arrays](conceitos-basicos/arrays.md)
+* [Objetos](conceitos-basicos/objetos.md)
 
 ## Javascript no Browser
 
