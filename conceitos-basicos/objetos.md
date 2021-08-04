@@ -76,5 +76,65 @@ let o = { x: "Não mude esse valor" };
 codigoExterno.funcaoQualquer(Object.create(o));
 ```
 
+### Testando propriedades
+
+Uma vez que os objetos JavaScript podem ser considerados conjuntos de propriedades e geralmente é útil poder testar a associação de uma propriedade ao conjunto - **para verificar se um objeto tem uma propriedade com um determinado nome**. Você pode fazer isso com o operador `in`, com os métodos `hasOwnProperty()` e `propertyIsEnumerable ()` ou simplesmente consultando a propriedade. Todos os exemplos mostrados aqui usam strings como nomes de propriedade.
+
+```javascript
+let o = { x:1 };
+"x" in o // => true
+"y" in o // => false
+"toString" in o // => true, pois herda a função toString
+```
+
+O método `hasOwnProperty()` de um objeto testa se esse objeto tem uma propriedade própria com o nome fornecido. Ele retorna `false` para propriedades herdadas:
+
+```javascript
+let o = { x:1 };
+o.hasOwnProperty("x") // => true
+o.hasOwnProperty("y") // => false
+o.hasOwnProperty("toString") // => false
+```
+
+### Métodos de objetos
+
+Nas versões mais modernas de Javascript, a sintaxe literal do objeto foi estendida para permitir um atalho onde a **palavra-chave da função e os dois pontos são omitidos**, resultando em um código como este:
+
+```javascript
+let quadrado = {
+  area() {
+	return this.lado * this.lado;
+  },
+  lado: 10,
+};
+quadrado.area();
+```
+
+### Gets e Sets de propriedades
+
+Todas as propriedades do objeto que discutimos até agora foram propriedades de dados com um nome e um valor comum. JavaScript também suporta **propriedades de acesso**, que não têm um único valor, mas em vez disso, têm um ou dois métodos de acesso: um **`getter`** e / ou um **`setter`**.
+
+Quando um programa consulta o valor de uma propriedade do acessador, o JavaScript invoca o método **`getter`** \(sem passar argumentos\). O valor de retorno desse método se torna o valor da expressão de acesso à propriedade. Quando um programa define o valor de uma propriedade do acessador, o JavaScript invoca o método **`setter`**, passando o valor do lado direito da atribuição. Este método é responsável por “definir”, em certo sentido, o valor da propriedade. O valor de retorno do método setter é ignorado.
+
+Se uma propriedade tem um método `getter` e um método `setter`, é uma propriedade de **leitura/gravação**. Se tiver apenas um método getter, será uma propriedade somente leitura. E se tiver apenas um método setter, é uma propriedade somente de gravação, e as tentativas de leitura sempre avaliam como indefinido.
+
+Propriedades de acesso podem ser descritas em um literal de objeto:
+
+```javascript
+let objeto = {
+  n: '',
+  
+  get nome() {
+    return this.n;
+  },
+  set nome(novoNome) {
+    this.n = novoNome;
+  }
+}
+
+objeto.nome = 'Diogo' // Por baixo, invocamos o método set
+objeto.nome // Acessamos como propriedade, mas por baixo, invocamos o método get
+```
+
 
 
