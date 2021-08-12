@@ -30,5 +30,7 @@
 
 ## Recursos avançados
 
+* [Modularidade](recursos-avancados/modularidade.md)
+
 ## Bibliotecas e frameworks
 
