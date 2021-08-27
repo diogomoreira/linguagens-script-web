@@ -32,6 +32,8 @@
 
 * [Modularidade](recursos-avancados/modularidade.md)
 * [Armazenamento](recursos-avancados/armazenamento.md)
+* [Assincronismo](recursos-avancados/assincronismo.md)
+* [Promises](recursos-avancados/promises.md)
 
 ## Bibliotecas e frameworks
 
