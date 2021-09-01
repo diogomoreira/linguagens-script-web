@@ -34,6 +34,7 @@
 * [Armazenamento](recursos-avancados/armazenamento.md)
 * [Assincronismo/Callbacks](recursos-avancados/assincronismo-callbacks/README.md)
   * [Promises](recursos-avancados/assincronismo-callbacks/promises.md)
+  * [Async/Await](recursos-avancados/assincronismo-callbacks/async-await.md)
 
 ## Bibliotecas e frameworks
 
