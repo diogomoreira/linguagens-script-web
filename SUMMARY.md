@@ -39,3 +39,8 @@
 
 ## Bibliotecas e frameworks
 
+---
+
+* [NodeJS](nodejs.md)
+* [NPM](npm.md)
+
