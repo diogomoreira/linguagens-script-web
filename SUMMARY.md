@@ -35,7 +35,7 @@
 * [Assincronismo/Callbacks](recursos-avancados/assincronismo-callbacks/README.md)
   * [Promises](recursos-avancados/assincronismo-callbacks/promises.md)
   * [Async/Await](recursos-avancados/assincronismo-callbacks/async-await.md)
-  * [Fetch e HTTP](recursos-avancados/assincronismo-callbacks/fetch-e-http.md)
+* [Fetch e HTTP](recursos-avancados/fetch-e-http.md)
 
 ## Bibliotecas e frameworks
 
