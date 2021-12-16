@@ -19,6 +19,7 @@
 * [Laços e iterações](conceitos-basicos/lacos-e-iteracoes.md)
 * [Arrays](conceitos-basicos/arrays.md)
 * [Objetos](conceitos-basicos/objetos.md)
+* [Classes](conceitos-basicos/classes.md)
 
 ## Javascript no Browser
 
@@ -39,9 +40,8 @@
 
 ## Bibliotecas e frameworks
 
----
+***
 
 * [NodeJS](nodejs.md)
 * [NPM](npm.md)
 * [Express](express.md)
-
