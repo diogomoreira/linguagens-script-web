@@ -21,6 +21,12 @@ entry point: (index.js)
 
 Insira `app.js`, ou qualquer nome que deseje para o arquivo principal. Se desejar que seja `index.js`, pressione entrar para aceitar o nome de arquivo padrão sugerido.
 
+Para que possamos utilizar módulos vindos de outras bibliotecas, como já vimos anteriormente, precisamos alterar o nosso arquivo `package.json` e adicionar uma linha com
+
+```
+"type": "module"
+```
+
 Agora instale o **Express** no diretório `app` e salve-o na lista de dependências. Por exemplo:
 
 ```
@@ -29,12 +35,12 @@ npm install express
 
 ### Estrutura básica
 
-No diretório `app`, crie um arquivo chamado `app.js` e inclua o seguinte código:
+No diretório `app`, crie um arquivo chamado `app.js` (ou o nome que você escolheu) e inclua o seguinte código:
 
 ```javascript
 import express from "express";
 
-const port = 3000;
+const port = 3000; // A porta que será usada pela sua aplicação.
 const app = express();
 
 app.get('/', (req, res) => {
