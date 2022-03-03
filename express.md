@@ -119,4 +119,22 @@ Os métodos do objeto de resposta (`res`) na seguinte tabela podem enviar uma re
 | [res.sendFile](https://expressjs.com/pt-br/4x/api.html#res.sendFile)       | Envia um arquivo como um fluxo de octeto.                                                                                 |
 | [res.sendStatus()](https://expressjs.com/pt-br/4x/api.html#res.sendStatus) | Configura o código do status de resposta e envia a sua representação em sequência de caracteres como o corpo de resposta. |
 
-### Entregando arquivos estáticos&#x20;
+### Entregando arquivos estáticos
+
+Para entregar arquivos estáticos como imagens, arquivos CSS, e arquivos JavaScript, use a função `express.static` integrada no Express.
+
+Passe o nome do diretório que contém os ativos estáticos para a função para iniciar a entregar os arquivos diretamente. Por exemplo, use o código a seguir para entregar imagens, arquivos CSS, e arquivos JavaScript em um diretório chamado `public`:
+
+```javascript
+app.use(express.static("public"));
+```
+
+Ao inicializar a aplicação, deverá ser possivel acessar todos os arquivos que estavam dentro de `/public` através da URL (nos exemplos aqui, `http://localhost:3000`), seguido do nome do arquivo exatamente como está no diretório, como nos exemplos abaixo:
+
+```
+http://localhost:3000/images/kitten.jpg
+http://localhost:3000/css/style.css
+http://localhost:3000/js/app.js
+http://localhost:3000/images/bg.png
+http://localhost:3000/hello.html
+```
