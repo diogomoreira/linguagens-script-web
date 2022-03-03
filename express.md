@@ -119,3 +119,4 @@ Os métodos do objeto de resposta (`res`) na seguinte tabela podem enviar uma re
 | [res.sendFile](https://expressjs.com/pt-br/4x/api.html#res.sendFile)       | Envia um arquivo como um fluxo de octeto.                                                                                 |
 | [res.sendStatus()](https://expressjs.com/pt-br/4x/api.html#res.sendStatus) | Configura o código do status de resposta e envia a sua representação em sequência de caracteres como o corpo de resposta. |
 
+### Entregando arquivos estáticos&#x20;
