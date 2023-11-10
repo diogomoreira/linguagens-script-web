@@ -36,12 +36,11 @@
 * [Assincronismo/Callbacks](recursos-avancados/assincronismo-callbacks/README.md)
   * [Promises](recursos-avancados/assincronismo-callbacks/promises.md)
   * [Async/Await](recursos-avancados/assincronismo-callbacks/async-await.md)
-* [Fetch e HTTP](recursos-avancados/fetch-e-http.md)
 
 ## Bibliotecas e frameworks
 
-***
-
-* [NodeJS](nodejs.md)
-* [NPM](npm.md)
-* [Express](express.md)
+* [NodeJS](bibliotecas-e-frameworks/nodejs.md)
+* [NPM](bibliotecas-e-frameworks/npm.md)
+* [HTTP](bibliotecas-e-frameworks/fetch-e-http.md)
+* [Fetch](bibliotecas-e-frameworks/fetch.md)
+* [Express](bibliotecas-e-frameworks/express.md)

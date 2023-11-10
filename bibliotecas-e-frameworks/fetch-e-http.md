@@ -1,4 +1,4 @@
-# Fetch e HTTP
+# HTTP
 
 HTTP é um protocolo de transferência que possibilita que as pessoas que inserem a URL do seu site na Web possam ver os conteúdos e dados que nele existem. A sigla vem do inglês _Hypertext Transfer Protocol_. Esse sistema é a base da comunicação que existe em toda a Internet em que os sites e conteúdos que tragam hiperlinks possam ser encontrados mais facilmente pelo público por meio de um clique do mouse ou um toque na tela.
 
@@ -59,19 +59,3 @@ O método HTTP PUT é o que você geralmente deseja associar às **operações d
 #### PATCH
 
 O método HTTP PATCH é o que você deseja associar às **operações de atualização parcial de recurso**. Além disso, as operações PATCH bem-sucedidas devem ser associadas a um código de status **200 OK**. PATCH é relativamente novo em comparação com outras operações HTTP.
-
-### Fetch
-
-O método `fetch()`, que vimos anteriormente, pode, opcionalmente, aceitar um segundo parâmetro, um objeto `init` que permite controlar uma série de configurações diferentes, incluindo o método HTTP a ser usado na solicitação.
-
-```javascript
-fetch(url,
-{
-    method: 'POST', // *GET, POST, PUT, PATCH, DELETE, etc.
-    headers: {
-      'Content-Type': 'application/json' // O tipo de conteúdo que estamos enviando
-    },
-    body: JSON.stringify(data)
-});
-```
-
