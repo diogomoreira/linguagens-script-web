@@ -2,7 +2,7 @@
 
 Diferentemente do que muitos pensam, **Node.js não é um framework javascript**, e muito menos uma **linguagem.** Ele é um **ambiente que executa códigos Javascript além do browser**, como por exemplo em servidores ou **no seu terminal/prompt de comando**. Ao utilizar NodeJS, você programa utilizando a [linguagem JavaScript](https://www.luiztools.com.br/post/por-que-stanford-trocou-java-por-javascript/), a mesma usada há décadas no browser.
 
-Para instalar esse ambiente, vá até o [site do NodeJS](https://nodejs.org/en/) e clique na opção **Current** (versão `17.6.0` na data desse material). Siga a instalação para o seu ambiente, seja Windows, Linux ou Mac. Ao final da instalação, ao executar o terminal/prompt de comando você deve ser capaz de executar o comando `node -v`.
+Para instalar esse ambiente, vá até o [site do NodeJS](https://nodejs.org/en/) e clique na opção **Current** (versão `20.9.0` na data desse material). Siga a instalação para o seu ambiente, seja Windows, Linux ou Mac. Ao final da instalação, ao executar o terminal/prompt de comando você deve ser capaz de executar o comando `node -v`.
 
 ```
 node -v
@@ -25,4 +25,4 @@ window.alert("Oi");
 
 Veja que esse segundo comando só é possível ao usar o ambiente de host **navegador da web**. Ao usar um ambiente como **Node**, a referência de `window` não existe.
 
-Assim como window não existe no ambiente node, outras referências também não vão existir, como [localStorage](../recursos-avancados/armazenamento.md), [adição e remoção de elementos](../javascript-no-browser/add-removendo-elementos.md), etc.
+Assim como window não existe no ambiente node, outras referências também não vão existir, como [localStorage](recursos-avancados/armazenamento.md), [adição e remoção de elementos](javascript-no-browser/add-removendo-elementos.md), etc.

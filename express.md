@@ -70,7 +70,7 @@ app.metodo(CAMINHO, CALLBACK)
 Onde:
 
 * `app` é uma instância do `express`.
-* `metodo` é um método de solicitação [HTTP](fetch-e-http.md).
+* `metodo` é um método de solicitação [HTTP](recursos-avancados/fetch-e-http.md).
 * `CAMINHO` é um caminho no servidor.
 * `CALLBACK` é a função executada quando a rota é correspondida.
 
