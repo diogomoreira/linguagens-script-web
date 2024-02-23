@@ -39,8 +39,8 @@
 
 ## Bibliotecas e frameworks
 
-* [NodeJS](nodejs.md)
-* [NPM](npm.md)
-* [HTTP](recursos-avancados/fetch-e-http.md)
+* [NodeJS](bibliotecas-e-frameworks/nodejs.md)
+* [NPM](bibliotecas-e-frameworks/npm.md)
+* [HTTP](bibliotecas-e-frameworks/fetch-e-http.md)
 * [Fetch](bibliotecas-e-frameworks/fetch.md)
-* [Express](express.md)
+* [Express](bibliotecas-e-frameworks/express.md)
