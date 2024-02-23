@@ -5,4 +5,4 @@
 3. Escreva uma função que receba um array com nomes e uma letra e retorne um novo array apenas com os nomes que começam com a letra informada. Utilize `filter` para resolver essa questão.
 4. Escreva uma função que receba um array e retorne um novo array que seja a inversão do array original.
 5. Escreva uma função que receba dois arrays e retorne um novo array que seja a fusão dos dois arrays originais.
-6. Escreva uma função que receba um array de números e retorne a soma e a média de todos os elementos no array utilizando o método `reduce`.
+6. Escreva uma função que receba um array de números e retorne, em um novo array, a soma (na posição 1) e a média (na posição 2) de todos os elementos no array utilizando o método `reduce`.
