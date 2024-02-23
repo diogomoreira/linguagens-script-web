@@ -15,9 +15,11 @@
 * [Variáveis](conceitos-basicos/variaveis.md)
 * [Expressões](conceitos-basicos/expressoes.md)
 * [Condicionais](conceitos-basicos/condicionais.md)
-* [Funções](conceitos-basicos/funcoes.md)
+* [Funções](conceitos-basicos/funcoes/README.md)
+  * [Exercícios](conceitos-basicos/funcoes/exercicios.md)
 * [Laços e iterações](conceitos-basicos/lacos-e-iteracoes.md)
-* [Arrays](conceitos-basicos/arrays.md)
+* [Arrays](conceitos-basicos/arrays/README.md)
+  * [Exercícios](conceitos-basicos/arrays/exercicios.md)
 * [Objetos](conceitos-basicos/objetos.md)
 * [Classes](conceitos-basicos/classes.md)
 
