@@ -20,7 +20,8 @@
 * [Laços e iterações](conceitos-basicos/lacos-e-iteracoes.md)
 * [Arrays](conceitos-basicos/arrays/README.md)
   * [Exercícios](conceitos-basicos/arrays/exercicios.md)
-* [Objetos](conceitos-basicos/objetos.md)
+* [Objetos](conceitos-basicos/objetos/README.md)
+  * [Exercícios](conceitos-basicos/objetos/exercicios.md)
 * [Classes](conceitos-basicos/classes.md)
 
 ## Javascript no Browser

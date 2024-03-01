@@ -28,7 +28,7 @@ const objeto = {
 
 #### Acesso a propriedades
 
-Veja como acessar as propriedades de um objeto na nossa seção de [Expressões](expressoes.md#expressoes-de-acesso-de-propriedades).
+Veja como acessar as propriedades de um objeto na nossa seção de [Expressões](../expressoes.md#expressoes-de-acesso-de-propriedades).
 
 ### Criando objetos
 
